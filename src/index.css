@@ -548,12 +548,6 @@ color: rgba(0, 238, 255, 0.952);
    }
 }
 
-@media (max-width: 850px) {
-    .animated.home-video {
-        width: 55%;
-    }
-}
-
 @media (max-width: 768px) {
     .responsive-nav{
         background: rgba(22, 224, 238, 0.952);
@@ -589,9 +583,6 @@ color: rgba(0, 238, 255, 0.952);
     .social a {
         width: 38px;
         height: 38px;
-    }
-    .animated.home-video {
-         width: 50%;
     }
 }
 @media (max-width: 462px) {
