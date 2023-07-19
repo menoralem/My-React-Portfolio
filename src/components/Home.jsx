@@ -32,9 +32,9 @@ useEffect(() => {
         <source src={menor2} type="video/mp4" />
       </video>
         <div className="relative z-10 home-content max-w-5xl">
-            <h1 className="text-[4.5rem] font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
+            <h1 className="text-[4.5rem] top-10 font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
             <div className="relative w-[29rem]">
-                <h3 className="text-animate">Website Developer</h3>
+                <h3 className="text-animate mt-10">Website Developer</h3>
                 <span className='animated' style={{ '--1': '3' }}></span>
             </div>
             <p className="text-white relative">Hello! My name is Menoralem bekalu and I'm a website developer, specializing in front-end developer. I'm passionate about creating Creating user-friendly and responsive websites that look great on all devices Optimizing website performance to ensure fast page load times. and always strive to deliver high-quality work that meets my clients needs. Please take a look at my portfolio to see some examples of my work, and feel free to get in touch if you have any questions or would like to discuss a potential project.
