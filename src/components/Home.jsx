@@ -32,7 +32,7 @@ useEffect(() => {
         <source src={menor2} type="video/mp4" />
       </video>
         <div className="relative z-10 home-content max-w-5xl">
-            <h1 className="text-[4.5rem] top-10 font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
+            <h1 className="text-[3.5rem] top-10 font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
             <div className="relative w-[29rem]">
                 <h3 className="text-animate mt-10">Website Developer</h3>
                 <span className='animated' style={{ '--1': '3' }}></span>
