@@ -47,7 +47,7 @@ useEffect(() => {
                 <span className='animated' style={{ '--1': '5' }}></span>
             </div>
         </div>
-        <div className='social absolute w-44 bottom-16 flex justify-between'>
+        <div className='social absolute w-44 bottom-6 flex justify-between'>
           <a href=""><FaFacebookF /></a>
           <a href=""><FaTwitter /></a>
           <a href=""><FaLinkedinIn /></a>
