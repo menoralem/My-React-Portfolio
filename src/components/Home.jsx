@@ -32,15 +32,15 @@ useEffect(() => {
         <source src={menor2} type="video/mp4" />
       </video>
         <div className="relative z-10 home-content max-w-5xl">
-            <h1 className="text-[3.5rem] top-10 font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
-            <div className="relative w-[29rem]">
-                <h3 className="text-animate mt-10">Website Developer</h3>
+            <h1 className="text-[3rem] top-10 font-bold leading-[1.3] text-white relative inline-block">Hi, I'm <span>Menoralem Bekalu</span><span className='animated' style={{ '--1': '2' }}></span></h1>
+            <div className="relative w-[22.5rem]">
+                <h3 className="text-animate mt-10 text-[1rem]">Website Developer</h3>
                 <span className='animated' style={{ '--1': '3' }}></span>
             </div>
             <p className="text-white relative">Hello! My name is Menoralem bekalu and I'm a website developer, specializing in front-end developer. I'm passionate about creating Creating user-friendly and responsive websites that look great on all devices Optimizing website performance to ensure fast page load times. and always strive to deliver high-quality work that meets my clients needs. Please take a look at my portfolio to see some examples of my work, and feel free to get in touch if you have any questions or would like to discuss a potential project.
             <span className='animated' style={{ '--1': '4' }}></span>
             </p>
-            <div className="btn-box relative flex gap-20 h-10 w-112">
+            <div className="btn-box relative flex gap-20 h-16 w-112">
                 <a href="#skills" className="child">Hire Me</a>
                 <a href="#contact" className="child">Let's Talk</a>
                 <a href={MENORALEM_BEKALU_RESUME}>Download CV</a>
@@ -48,9 +48,9 @@ useEffect(() => {
             </div>
         </div>
         <div className='social absolute w-44 bottom-6 flex justify-between'>
-          <a href=""><FaFacebookF /></a>
-          <a href=""><FaTwitter /></a>
-          <a href=""><FaLinkedinIn /></a>
+          <a href="https://www.facebook.com/menoralem.bekalu"><FaFacebookF /></a>
+          <a href="https://twitter.com/Menoralem"><FaTwitter /></a>
+          <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BiuQFvAJfTr6CqsNs5yK3Sg%3D%3D"><FaLinkedinIn /></a>
           <span className='animated' style={{ '--1': '6' }}></span>
         </div>
         <div className='home-videoHover'></div>

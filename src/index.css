@@ -6,13 +6,14 @@
 
 body{
     background: black;
+    font-size: 1.2rem;
 }
 .navbar {
     position: fixed;
     left: 0;
     color: white;
     width: 100%;
-    padding: 2rem 9%;
+    padding: .1rem 6%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,8 @@ body{
 }
 .navbar a {
 color: white;
-font-weight: 500;
+font-weight: 400;
+font-size: 1.5rem;
 margin-left: 3.5rem;
 transition: .3s;
 }
@@ -33,17 +35,18 @@ transition: .3s;
     color: rgba(0, 238, 255, 0.952);
 }
 .navbar .logo {
+    font-size: 2.5rem;
     font-family: 'Faster One', cursive;
 }
 .text-animate {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: .7px rgba(0, 238, 255, 0.952);
     background-image: linear-gradient(rgba(0, 238, 255, 0.952), rgba(0, 238, 255, 0.952));
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -29.5rem 0;
+    background-position: -22.7rem 0;
 }
 
 .home.show-animated .text-animate {
@@ -66,20 +69,20 @@ transition: .3s;
         animation-delay: 2s;
 }
 .home-content p{
-    font-size: 1.5rem;
-    margin: 2rem 0 4rem;
+    margin: 1rem 0 2rem;
+    width: 85%;
 }
 .btn-box a{
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 14rem;
+    width: 18%;
     height: 100%;
     background: rgba(0, 238, 255, 0.952);
     border: .2rem solid rgba(0, 238, 255, 0.952);
     border-radius: .8rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 600;
     z-index: 1;
     overflow: hidden;
@@ -122,6 +125,7 @@ color: rgba(0, 238, 255, 0.952);
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
     width: 40px;
     height: 40px;
     background: transparent;
@@ -178,8 +182,8 @@ color: rgba(0, 238, 255, 0.952);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(0);
-    width: 70%;
-    height: 70%;
+    width: 55%;
+    height: 55%;
     border-radius: 50%;
     border-top: .2rem solid rgba(15, 10, 10, 0.973);
     border-bottom: .2rem solid rgba(15, 10, 10, 0.973);
@@ -189,13 +193,13 @@ color: rgba(0, 238, 255, 0.952);
 }
 
 .education-row .education-column {
-    flex: 1 1 40rem;
+    flex: 1 1 32rem;
 }
 
 .education-column .title {
     position: relative;
     display: inline-block;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0 0 1.5rem 2rem;
 }
 
@@ -207,6 +211,7 @@ color: rgba(0, 238, 255, 0.952);
 .education-box .eduction-content {
     position: relative;
     padding-left: 2rem;
+    height: 275px;
 }
 
 .education-box .eduction-content::before {
@@ -225,6 +230,7 @@ color: rgba(0, 238, 255, 0.952);
     padding: 1.5rem;
     border: .2rem solid rgba(0, 238, 255, 0.952);
     border-radius: .6rem;
+    height: 250px;
     margin-bottom: 2rem;
     overflow: hidden;
 }
@@ -246,18 +252,18 @@ color: rgba(0, 238, 255, 0.952);
 }
 
 .eduction-content .content .year {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgba(0, 238, 255, 0.952);
     padding-bottom: .5rem;
 }
 
 .eduction-content .content h3 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .eduction-content .content p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     padding-top: .5rem;
 }
 
@@ -268,7 +274,7 @@ color: rgba(0, 238, 255, 0.952);
 }
 
 .skills-row .skills-column {
-    flex: 1 1 40rem;
+    flex: 1 1 32rem;
 }
 
 .skills-column .title {
@@ -288,6 +294,7 @@ color: rgba(0, 238, 255, 0.952);
     border-radius: .6rem;
     padding: .5rem 1.5rem;
     z-index: 1;
+    height: 485px;
     overflow: hidden;
 }
 
@@ -309,7 +316,7 @@ color: rgba(0, 238, 255, 0.952);
 
 
 .skills-content .progress h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -319,7 +326,7 @@ color: rgba(0, 238, 255, 0.952);
 }
 
 .skills-content .progress .bar {
-    height: 2.5rem;
+    height: 1.8rem;
     border-radius: .6rem;
     border: .2rem solid rgba(0, 238, 255, 0.952);
     padding: .5rem;
@@ -388,7 +395,7 @@ color: rgba(0, 238, 255, 0.952);
 .contact form .input-box .input-field input,
 .contact form .textarea-filed textarea {
     width: 100%;
-    height: 100%;
+    height: 70px;
     padding: 1.5rem;
     font-size: 1.6rem;
     color: white;
@@ -406,6 +413,7 @@ color: rgba(0, 238, 255, 0.952);
 
 .contact form .textarea-filed textarea {
     resize: none;
+    height: 200px;
 }
 .btn-box button {
     position: relative;
@@ -519,12 +527,12 @@ color: rgba(0, 238, 255, 0.952);
 
 @media (max-width: 1200px) {
     html {
-        font-size: 55%;
+        font-size: 80%;
     }
 }
 @media (max-width: 991px) {
     .navbar {
-        padding: 2rem 4%;
+        padding: .5rem 4%;
     }
     section {
         padding: 10rem 4% 2rem;
@@ -532,6 +540,13 @@ color: rgba(0, 238, 255, 0.952);
     .home {
         padding: 0 4%;
     }
+    .about h2{
+        margin-top: 0;
+    }
+    .btn-box a {
+        width: 20%;
+        font-size: 1.3rem;
+        }
     .social {
         width: 160px;
     }
@@ -539,6 +554,14 @@ color: rgba(0, 238, 255, 0.952);
     .social a {
         width: 38px;
         height: 38px;
+    }
+    .text {
+        text-align: left;
+        width: 70%;
+        margin-left: 150px;
+    }
+    .text.show-more {
+        text-align: left;
     }
     .footer {
         padding: 2rem 4%;
@@ -549,14 +572,6 @@ color: rgba(0, 238, 255, 0.952);
 }
 
 @media (max-width: 768px) {
-    .responsive-nav{
-        background: rgba(22, 224, 238, 0.952);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        z-index: 1;
-        transition: .25s ease;
-        left: 0;
-        padding-left: 5%;
-    }
     .responsive-nav .active-nav {
         position: absolute;
         top: 0;
@@ -571,11 +586,15 @@ color: rgba(0, 238, 255, 0.952);
 
 @media (max-width: 520px) {
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
     .home-content h1 {
         display: flex;
         flex-direction: column;
+    }
+    .btn-box a {
+        width: 20%;
+        font-size: 1.3rem;
     }
     .social {
         width: 160px;
@@ -583,6 +602,9 @@ color: rgba(0, 238, 255, 0.952);
     .social a {
         width: 38px;
         height: 38px;
+    }
+    .home-videoHover {
+        
     }
 }
 @media (max-width: 462px) {
@@ -626,7 +648,7 @@ color: rgba(0, 238, 255, 0.952);
     0%,
     10%,
     100% {
-        background-position: -29.5rem 0;
+        background-position: -22.5rem 0;
     }
 
     65%,

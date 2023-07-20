@@ -37,12 +37,12 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className={`responsive-nav md:hidden absolute top-full w-full p-[1rem 4%] bg-gray-800 max-w-[768px] ${isOpen ? 'is-active' : 'text-[1.7rem]'}`}>
-          <a href="#home" className="block text-[2rem] m-[3rem] py-2" onClick={handleNavClick}>Home</a>
-          <a href="#about" className="block text-[2rem] m-[3rem] py-2" onClick={handleNavClick}>About</a>
-          <a href="#education" className="block text-[2rem] m-[3rem] py-2" onClick={handleNavClick}>Education</a>
-          <a href="#skills" className="block text-[2rem] m-[3rem] py-2" onClick={handleNavClick}>Skills</a>
-          <a href="#contact" className="block text-[2rem] m-[3rem] py-2" onClick={handleNavClick}>Contact</a>
+        <div className={`responsive-nav md:hidden absolute top-16 w-full pl-[6%] bg-transparent max-w-[768px] ${isOpen ? 'is-active' : 'text-[1.7rem]'}`}>
+          <a href="#home" className="block text-[2rem] m-[3rem] " onClick={handleNavClick}>Home</a>
+          <a href="#about" className="block text-[2rem] m-[3rem] " onClick={handleNavClick}>About</a>
+          <a href="#education" className="block text-[2rem] m-[3rem] " onClick={handleNavClick}>Education</a>
+          <a href="#skills" className="block text-[2rem] m-[3rem] " onClick={handleNavClick}>Skills</a>
+          <a href="#contact" className="block text-[2rem] m-[3rem] " onClick={handleNavClick}>Contact</a>
          <span className='active-nav'></span>
         </div> 
       )}
