@@ -48,9 +48,9 @@ useEffect(() => {
             </div>
         </div>
         <div className='social absolute w-44 bottom-6 flex justify-between'>
-          <a href="https://www.facebook.com/menoralem.bekalu"><FaFacebookF /></a>
-          <a href="https://twitter.com/Menoralem"><FaTwitter /></a>
-          <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BiuQFvAJfTr6CqsNs5yK3Sg%3D%3D"><FaLinkedinIn /></a>
+        <a href="https://www.facebook.com/menoralem.bekalu" target="_blank"><FaFacebookF /></a>
+        <a href="https://twitter.com/Menoralem" target="_blank"><FaTwitter /></a>
+          <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BiuQFvAJfTr6CqsNs5yK3Sg%3D%3D" target="_blank"><FaLinkedinIn /></a>
           <span className='animated' style={{ '--1': '6' }}></span>
         </div>
         <div className='home-videoHover'></div>
