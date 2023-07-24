@@ -603,9 +603,6 @@ color: rgba(0, 238, 255, 0.952);
         width: 38px;
         height: 38px;
     }
-    .home-videoHover {
-        
-    }
 }
 @media (max-width: 462px) {
     .home-content h1 {
@@ -642,6 +639,36 @@ color: rgba(0, 238, 255, 0.952);
     .home-content h1 {
         font-size: 5rem;
     }
+}
+@media only screen and (max-width: 360px) {
+   
+    .navbar {
+        padding: .5rem 4%;
+        width: 53%;
+        }
+    html {
+        font-size: 50%;
+        }
+    
+    .home-content h1 {
+        display: flex;
+        flex-direction: column;
+        }
+    
+    .btn-box a {
+        width: 70px;
+        height: 30px;
+        font-size: 1.2rem;
+        }
+    
+    .social {
+        width: 160px;
+        }
+    
+    .social a {
+            width: 33px;
+            height: 33px;
+        }
 }
 
 @keyframes homeBgText {
