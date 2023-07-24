@@ -635,7 +635,7 @@ color: rgba(0, 238, 255, 0.952);
             display: flex;
             flex-direction: column;
             font-size: 3rem;
-            margin-top: -250px;
+            margin-top: -180px;
         }
         .home-content h3 {
             margin-top: -270px;
@@ -657,7 +657,7 @@ color: rgba(0, 238, 255, 0.952);
         .social a {
             width: 33px;
             height: 33px;
-            margin-top: -280px;
+            margin-top: -150px;
         }
 
 }
