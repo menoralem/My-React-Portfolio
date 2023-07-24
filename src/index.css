@@ -605,10 +605,6 @@ color: rgba(0, 238, 255, 0.952);
     }
 }
 @media (max-width: 480px) {
-    .home-content h1 {
-        font-size: 5.2rem;
-    }
-
     .education {
         padding: 10rem 4% 5rem 5%;
     }
@@ -624,18 +620,28 @@ color: rgba(0, 238, 255, 0.952);
         text-align: center;
     }
         .navbar {
-            padding: .5rem 4%;
-            width: 53%;
+            padding: .5rem 1%;
+            width: 50%;
         }
     
         html {
             font-size: 50%;
+        }
+        .home {
+            
         }
     
         .home-content h1 {
             display: flex;
             flex-direction: column;
             font-size: 3rem;
+            margin-top: -250px;
+        }
+        .home-content h3 {
+            margin-top: -270px;
+        }
+        .home-content p{
+            margin-top: -230px;
         }
     
         .btn-box a {
@@ -651,6 +657,7 @@ color: rgba(0, 238, 255, 0.952);
         .social a {
             width: 33px;
             height: 33px;
+            margin-top: -280px;
         }
 
 }
@@ -666,6 +673,7 @@ color: rgba(0, 238, 255, 0.952);
         text-align: center;
     }
     .home-content h1 {
+        margin-bottom: 300px;
         font-size: 3rem;
     }
 }
