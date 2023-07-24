@@ -604,7 +604,7 @@ color: rgba(0, 238, 255, 0.952);
         height: 38px;
     }
 }
-@media (max-width: 462px) {
+@media (max-width: 480px) {
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -623,6 +623,35 @@ color: rgba(0, 238, 255, 0.952);
         margin-top: 2rem;
         text-align: center;
     }
+        .navbar {
+            padding: .5rem 4%;
+            width: 53%;
+        }
+    
+        html {
+            font-size: 50%;
+        }
+    
+        .home-content h1 {
+            display: flex;
+            flex-direction: column;
+            font-size: 3rem;
+        }
+    
+        .btn-box a {
+            width: 70px;
+            height: 30px;
+            font-size: 1.2rem;
+        }
+    
+        .social {
+            width: 160px;
+        }
+    
+        .social a {
+            width: 33px;
+            height: 33px;
+        }
 
 }
 @media (max-width: 371px) {
@@ -637,39 +666,10 @@ color: rgba(0, 238, 255, 0.952);
         text-align: center;
     }
     .home-content h1 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 }
-@media only screen and (max-width: 360px) {
-   
-    .navbar {
-        padding: .5rem 4%;
-        width: 53%;
-        }
-    html {
-        font-size: 50%;
-        }
-    
-    .home-content h1 {
-        display: flex;
-        flex-direction: column;
-        }
-    
-    .btn-box a {
-        width: 70px;
-        height: 30px;
-        font-size: 1.2rem;
-        }
-    
-    .social {
-        width: 160px;
-        }
-    
-    .social a {
-            width: 33px;
-            height: 33px;
-        }
-}
+
 
 @keyframes homeBgText {
     0%,
